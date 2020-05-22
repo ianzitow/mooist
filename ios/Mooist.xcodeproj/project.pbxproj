@@ -20,6 +20,9 @@
 		BEFE90A48DEF61300C51FD29 /* libPods-Mooist-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D4388646540EB0F113E2FE /* libPods-Mooist-tvOS.a */; };
 		C8B6E64794ACD1AB6FE2E841 /* libPods-Mooist.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14705FF8680D8713FB10BFD0 /* libPods-Mooist.a */; };
 		EEDA1F40DC22495800AB683F /* libPods-Mooist-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C74F59A8FBC3B3EDC8413A /* libPods-Mooist-tvOSTests.a */; };
+		9853833E27C64500AFF49606 /* FiraSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC7443EB46934B2FB72E96F0 /* FiraSans-Light.ttf */; };
+		FD643CE9B8434924801B0BE0 /* Merriweather-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3797139F85E4E24974AF532 /* Merriweather-Bold.ttf */; };
+		A902DC40DD494D07B5E0C412 /* FiraSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92ADCAF3F0FA4516BE457967 /* FiraSans-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,9 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F41E2CC2610E7AA14FDD476C /* Pods-Mooist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mooist.debug.xcconfig"; path = "Target Support Files/Pods-Mooist/Pods-Mooist.debug.xcconfig"; sourceTree = "<group>"; };
+		DC7443EB46934B2FB72E96F0 /* FiraSans-Light.ttf */ = {isa = PBXFileReference; name = "FiraSans-Light.ttf"; path = "../src/assets/fonts/FiraSans-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F3797139F85E4E24974AF532 /* Merriweather-Bold.ttf */ = {isa = PBXFileReference; name = "Merriweather-Bold.ttf"; path = "../src/assets/fonts/Merriweather-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		92ADCAF3F0FA4516BE457967 /* FiraSans-Regular.ttf */ = {isa = PBXFileReference; name = "FiraSans-Regular.ttf"; path = "../src/assets/fonts/FiraSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +187,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				7C20B7C2D026AB7A54A39C46 /* Pods */,
+				DB93C706ED314E9D93F8496F /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -197,6 +204,17 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		DB93C706ED314E9D93F8496F /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				DC7443EB46934B2FB72E96F0 /* FiraSans-Light.ttf */,
+				F3797139F85E4E24974AF532 /* Merriweather-Bold.ttf */,
+				92ADCAF3F0FA4516BE457967 /* FiraSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -340,6 +358,9 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				9853833E27C64500AFF49606 /* FiraSans-Light.ttf in Resources */,
+				FD643CE9B8434924801B0BE0 /* Merriweather-Bold.ttf in Resources */,
+				A902DC40DD494D07B5E0C412 /* FiraSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
